@@ -15,22 +15,35 @@
     <div class="top-form">
         <h1>EN-LT dictionary</h1>
         <form class="dictionary-form">
-            <label for="en_new_text">English</label>
-            <input id="en_new_text" type="text" placeholder="English text">
-            <label for="lt_new_text">Lithuanian</label>
-            <input id="lt_new_text" type="text" placeholder="Lithuanian text">
+            <div class="en-top">
+                <label for="en_new_text">English</label>
+                <input id="en_new_text" type="text" placeholder="text">
+            </div>
+            <div class="lt-top">
+                <label for="lt_new_text">Lithuanian</label>
+                <input id="lt_new_text" type="text" placeholder="text">
+            </div>
             <button id="save_button" type="submit">Save</button>
             <button type="reset">Reset</button>
         </form>
     </div>
+
+    <!-- <form class="hide">
+        <label for="en_updated_text">EN</label>
+        <input id="en_updated_text" type="text">
+        <label for="lt_updated_text">LT</label>
+        <input id="lt_updated_text" type="color">
+        <button type="submit">Update</button>
+        <button type="button">Cancel</button>
+    </form> -->
 
     <div class="bottom-form">
         <h1>Saved words</h1>
         <div class="list">
             <input id="en_saved_text" type="text">
             <input id="lt_saved_text" type="text">
-            <div class="btn edit">Edit</div>
-            <div class="btn delete">Delete</div>
+            <button class="btn fa fa-edit "></button>
+            <button class="btn fa fa-trash"></button>
         </div>
     </div>
     <script src="./js/main.js" type="module" defer></script>
