@@ -52,6 +52,7 @@ h1 {
   border: none;
   border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.267);
+  cursor: pointer;
 }
 
 @media (max-width: 880px) {
@@ -67,6 +68,7 @@ h1 {
   .dictionary-form > button {
     width: 100%;
     line-height: 25px;
+    cursor: pointer;
   }
 }
 
@@ -95,12 +97,14 @@ h1 {
   border: none;
   border-radius: 5px;
   box-shadow: 0 4px 10px #0004;
+  cursor: pointer;
 }
 .bottom-form .list > .btn.fa-trash {
   background-color: rgb(230, 67, 67);
   border: none;
   border-radius: 5px;
   box-shadow: 0 4px 10px #0004;
+  cursor: pointer;
 }
 
 @media (max-width: 880px) {
@@ -116,5 +120,6 @@ h1 {
   .bottom-form .list > button {
     width: 40%;
     line-height: 40px;
+    cursor: pointer;
   }
 }
